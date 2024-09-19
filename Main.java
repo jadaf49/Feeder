@@ -16,7 +16,10 @@ public class Main
 
         System.out.println(Math.random() < 0.05);
 
-
+        g.simulateManyDays(10,4);
+        g.simulateManyDays(10,5);
+        g.simulateManyDays(5,10);
+            
 
 
     }
