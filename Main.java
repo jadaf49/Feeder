@@ -8,7 +8,10 @@ public class Main
         System.out.println(f.getCurrentFood());
         Feeder g = new Feeder(500);
         System.out.println(g.getCurrentFood());
-        g.simulateOneDay(12);
+        //g.simulateOneDay(12);
+        //g.simulateManyDays(10,4);
+        //g.simulateManyDays(10,5);
+        g.simulateManyDays(5,10);
         System.out.println(Math.random());
 
         int random = (int)(Math.random() * 10 + 1);
@@ -16,9 +19,7 @@ public class Main
 
         System.out.println(Math.random() < 0.05);
 
-        g.simulateManyDays(10,4);
-        g.simulateManyDays(10,5);
-        g.simulateManyDays(5,10);
+        
             
 
 
