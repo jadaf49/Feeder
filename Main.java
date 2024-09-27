@@ -38,5 +38,8 @@ public class Main
         System.out.println(l.simulateManyDays(5,10));
         System.out.println(l);
 
+        System.out.println("test");
+
+
     }
 }
